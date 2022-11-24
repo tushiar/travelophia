@@ -1,0 +1,104 @@
+.table_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+table {
+  border: solid 1px #93938b;
+  border-radius: 4px;
+  background-color: #f2f4f5;
+  margin: 10px;
+}
+.hyperlink {
+  color: blue;
+  text-decoration: underline;
+}
+.back{
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+table,
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+.table-head {
+  background-color: #d1d1d1;
+}
+.status-success {
+  text-align: center;
+  background: green;
+  font-size: 29px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 10px;
+}
+.status-error {
+  text-align: center;
+  background: red;
+  font-size: 29px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.main-header {
+  text-align: center;
+  /* height: 30px; */
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  background: aliceblue;
+}
+.submit {
+  margin: 10px 0;
+  background: #d9d089;
+  outline: none;
+  border: none;
+  padding: 5px 25px;
+  width: 100px;
+  text-align: center;
+  color: #9d8f8f;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+}
+.form-container {
+  display: flex;
+  align-self: center;
+  padding-top: 20px;
+}
+.form {
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  border: solid #abb6bd;
+  padding: 17px;
+  border-radius: 8px;
+  background: beige;
+}
+.inputBox {
+  width: 350px;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.heading {
+  text-align: center;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
